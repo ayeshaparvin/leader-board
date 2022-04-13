@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 body{
-    background-color: #9F9F9F;
+    background-color:#E5E5E5;
     font-family: 'Poppins',
     sans-serif;
     font-weight: 500;
@@ -105,7 +105,7 @@ nav{
 }
 .player{
     display: flex;
-    
+    align-items: center;
 }
 .player-name{
     font-family: poppins;
