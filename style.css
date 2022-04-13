@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+body{
+    background-color: #9F9F9F;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.head-container{
+    width: 1520px;
+    height: 94px;
+    background-color:#562EFF;
+    top:0;
+    position: sticky;
+}
+.head-container a{
+    text-decoration: none;
+    color: white;
+}
+.left img{
+    margin-right: 16px;
+    width: 40.42px;
+    height: 51px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 285px;
+    
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left .idea{
+    font-size: 24px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right a{
+    font-family: poppins;
+    margin-right: 36px;
+    font-size: 16px;
+}
+.right img{
+    width:51px;
+    height: 51px;
+    margin-top:23px;
+    margin-bottom:20px;
+}
+
+.container{
+    padding: 80px 118px;
+    background-color: #FFFFFF;
+    width: 750px;
+    height: 679px; 
+    margin-left: 285px;
+    border-radius: 10px;
+}
+
+.top-name{
+   font-family: poppins; 
+   font-size: 24px;
+   color:#562EFF;
+}
+.top-name:hover{
+    
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.top-player{
+    margin-bottom:30px ;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+    border-radius: 50%;
+    
+}
+.player img:hover{
+    border: 1px solid blue;
+    
+}
+.player:hover .player-name{
+    text-decoration: underline;
+    text-decoration-color: #562EFF;
+    color:#562EFF;
+    text-decoration-thickness: 2px;
+}
+.player{
+    display: flex;
+    
+}
+.player-name{
+    font-family: poppins;
+    font-size: 18px;
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.top-blog-content{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog-content{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.blog-content img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+.design-name{
+    font-size: 16px;
+    font-weight: 400;
+    color:#562EFF;
+}
+.design-by{
+    font-size: 16px;
+    color:#D1D1D1;
+}
+.blog-name{
+    font-family: poppins;
+    font-size: 24px;
+    color:#562EFF;
+}
+
+/* lates conatiner */
+.lates-container{
+    border-radius: 10px;
+    width: 920px;
+    height: 362px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 285px;
+    padding: 33px;
+    
+}
+.lates{
+    display: flex;
+}
+#top{
+    color:#562EFF;
+}
+.lates-courses{
+    margin-right: 24px;
+    padding: 13px;
+    Width :252.42px; 
+    Height:269.79px;
+    background-color: rgb(249, 234, 234);
+}
+.course_1 img{
+    width: 224.38px;
+    height: 105.51px;
+}
+
+.course{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-20px;
+    left:-10px
+}
+.course-time{
+    display: flex;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+#timer{
+    margin-left: 10px;
+    margin-right:5px ;
+}
+#red{
+    color: #ED6B4F;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+#hour{
+color: #FF4A60;
+}
+.course-time img{
+    Width: 15px;
+     Height: 12.4px;
+}
+.clock img{
+    width: 20.3px;
+    height: 20.3px;
+}
